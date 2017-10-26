@@ -12,6 +12,6 @@ object IOTest2 extends App {
         _         <- putStrLn(s"First: $fNameUC, Last: $lNameUC")
     } yield ()
 
-    forExpression.run
+    forExpression
 
 }
